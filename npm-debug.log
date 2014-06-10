@@ -1,0 +1,830 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'phonegap' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'phonegap', null ]
+6 verbose cache add name=undefined spec="phonegap" args=["phonegap",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'phonegap',
+7 verbose parsed url   path: 'phonegap',
+7 verbose parsed url   href: 'phonegap' }
+8 silly lockFile 10db903f-phonegap phonegap
+9 verbose lock phonegap C:\Users\user1\AppData\Roaming\npm-cache\10db903f-phonegap.lock
+10 silly lockFile 10db903f-phonegap phonegap
+11 silly lockFile 10db903f-phonegap phonegap
+12 verbose addNamed [ 'phonegap', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 3a6257f3-phonegap phonegap@
+15 verbose lock phonegap@ C:\Users\user1\AppData\Roaming\npm-cache\3a6257f3-phonegap.lock
+16 silly addNameRange { name: 'phonegap', range: '*', hasData: false }
+17 verbose url raw phonegap
+18 verbose url resolving [ 'https://registry.npmjs.org/', './phonegap' ]
+19 verbose url resolved https://registry.npmjs.org/phonegap
+20 info trying registry request attempt 1 at 20:34:43
+21 verbose etag "AD8365S4JGBY0TB840ZDPPG4V"
+22 http GET https://registry.npmjs.org/phonegap
+23 http 304 https://registry.npmjs.org/phonegap
+24 silly registry.get cb [ 304,
+24 silly registry.get   { date: 'Tue, 10 Jun 2014 13:34:46 GMT',
+24 silly registry.get     server: 'Apache',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'last-modified': 'Tue, 10 Jun 2014 13:34:46 GMT',
+24 silly registry.get     'cache-control': 'max-age=1',
+24 silly registry.get     etag: '"AD8365S4JGBY0TB840ZDPPG4V"',
+24 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1402407286.065579,VS0,VE211',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'content-length': '0',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 verbose etag phonegap from cache
+26 silly addNameRange number 2 { name: 'phonegap', range: '*', hasData: true }
+27 silly addNameRange versions [ 'phonegap',
+27 silly addNameRange   [ '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.4.1',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.6.1',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '0.7.1',
+27 silly addNameRange     '0.7.2',
+27 silly addNameRange     '0.7.3',
+27 silly addNameRange     '0.7.4',
+27 silly addNameRange     '0.7.5',
+27 silly addNameRange     '0.7.6',
+27 silly addNameRange     '0.7.7',
+27 silly addNameRange     '0.7.8',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.8.1',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.9.1',
+27 silly addNameRange     '0.9.2',
+27 silly addNameRange     '0.9.3',
+27 silly addNameRange     '0.9.4',
+27 silly addNameRange     '2.8.0-0.10.0',
+27 silly addNameRange     '2.8.0-0.10.1',
+27 silly addNameRange     '2.8.0-0.10.2',
+27 silly addNameRange     '2.8.0-0.10.3',
+27 silly addNameRange     '2.8.0-0.10.4',
+27 silly addNameRange     '2.8.0-0.10.6',
+27 silly addNameRange     '2.8.1-0.11.0',
+27 silly addNameRange     '2.9.0-0.12.2',
+27 silly addNameRange     '2.9.0-0.12.3',
+27 silly addNameRange     '2.9.0-0.12.4',
+27 silly addNameRange     '2.9.0-0.12.5',
+27 silly addNameRange     '2.9.0-0.12.6',
+27 silly addNameRange     '2.9.0-0.12.7',
+27 silly addNameRange     '2.9.0-0.12.8',
+27 silly addNameRange     '2.9.0-rc1-0.12.0',
+27 silly addNameRange     '2.9.0-rc1-0.12.1',
+27 silly addNameRange     '2.9.0-rc1-0.12.2',
+27 silly addNameRange     '2.9.0-0.12.9',
+27 silly addNameRange     '2.9.0-0.12.10',
+27 silly addNameRange     '2.9.0-0.12.11',
+27 silly addNameRange     '2.9.0-0.13.0',
+27 silly addNameRange     '2.9.0-0.13.1',
+27 silly addNameRange     '2.9.0-0.13.2',
+27 silly addNameRange     '3.0.0-rc1-0.13.2',
+27 silly addNameRange     '3.0.0-rc1-0.13.3',
+27 silly addNameRange     '3.0.0-0.14.0',
+27 silly addNameRange     '3.0.0-0.14.1',
+27 silly addNameRange     '3.0.0-0.14.2',
+27 silly addNameRange     '3.0.0-0.14.3',
+27 silly addNameRange     '3.0.0-0.14.4',
+27 silly addNameRange     '3.1.0-0.15.0',
+27 silly addNameRange     '3.2.0-0.15.0',
+27 silly addNameRange     '3.2.0-0.16.0',
+27 silly addNameRange     '3.2.0-0.17.0',
+27 silly addNameRange     '3.2.0-0.17.1',
+27 silly addNameRange     '3.3.0-0.17.1',
+27 silly addNameRange     '3.3.0-0.18.0',
+27 silly addNameRange     '3.3.0-0.18.1',
+27 silly addNameRange     '3.3.0-0.19.0',
+27 silly addNameRange     '3.3.0-0.19.1',
+27 silly addNameRange     '3.3.0-0.19.2',
+27 silly addNameRange     '3.3.0-0.19.3',
+27 silly addNameRange     '3.3.0-0.19.4',
+27 silly addNameRange     '3.3.0-0.19.5',
+27 silly addNameRange     '3.3.0-0.19.6',
+27 silly addNameRange     '3.4.0-0.19.7',
+27 silly addNameRange     '3.4.0-0.19.8',
+27 silly addNameRange     '3.4.0-0.19.9',
+27 silly addNameRange     '3.4.0-0.19.10',
+27 silly addNameRange     '3.4.0-0.19.11',
+27 silly addNameRange     '3.4.0-0.19.12',
+27 silly addNameRange     '3.4.0-0.19.13',
+27 silly addNameRange     '3.4.0-0.19.14',
+27 silly addNameRange     '3.4.0-0.19.15',
+27 silly addNameRange     '3.4.0-0.19.16',
+27 silly addNameRange     '3.4.0-0.19.17',
+27 silly addNameRange     '3.4.0-0.19.18',
+27 silly addNameRange     '3.4.0-0.19.19',
+27 silly addNameRange     '3.4.0-0.19.20',
+27 silly addNameRange     '3.4.0-0.19.21',
+27 silly addNameRange     '3.4.0-0.20.0',
+27 silly addNameRange     '3.5.0-0.19.23',
+27 silly addNameRange     '3.5.0-0.20.0',
+27 silly addNameRange     '3.5.0-0.20.1',
+27 silly addNameRange     '3.5.0-0.20.3',
+27 silly addNameRange     '3.5.0-0.20.4' ] ]
+28 verbose addNamed [ 'phonegap', '3.5.0-0.20.4' ]
+29 verbose addNamed [ '3.5.0-0.20.4', '3.5.0-0.20.4' ]
+30 silly lockFile aeddfae0-phonegap-3-5-0-0-20-4 phonegap@3.5.0-0.20.4
+31 verbose lock phonegap@3.5.0-0.20.4 C:\Users\user1\AppData\Roaming\npm-cache\aeddfae0-phonegap-3-5-0-0-20-4.lock
+32 silly lockFile aeddfae0-phonegap-3-5-0-0-20-4 phonegap@3.5.0-0.20.4
+33 silly lockFile aeddfae0-phonegap-3-5-0-0-20-4 phonegap@3.5.0-0.20.4
+34 silly lockFile 3a6257f3-phonegap phonegap@
+35 silly lockFile 3a6257f3-phonegap phonegap@
+36 silly resolved [ { name: 'phonegap',
+36 silly resolved     description: 'PhoneGap command-line interface and node.js library.',
+36 silly resolved     version: '3.5.0-0.20.4',
+36 silly resolved     homepage: 'http://github.com/phonegap/phonegap-cli',
+36 silly resolved     repository:
+36 silly resolved      { type: 'git',
+36 silly resolved        url: 'git://github.com/phonegap/phonegap-cli.git' },
+36 silly resolved     keywords:
+36 silly resolved      [ 'cli',
+36 silly resolved        'cordova',
+36 silly resolved        'phonegap',
+36 silly resolved        'phonegap build',
+36 silly resolved        'phonegap/build' ],
+36 silly resolved     preferGlobal: 'true',
+36 silly resolved     main: './lib/main.js',
+36 silly resolved     bin: { phonegap: './bin/phonegap.js' },
+36 silly resolved     scripts: { test: 'jasmine-node --color spec' },
+36 silly resolved     engineStrict: 'true',
+36 silly resolved     engines: { node: '>=0.10.0' },
+36 silly resolved     dependencies:
+36 silly resolved      { colors: '0.6.0-1',
+36 silly resolved        cordova: '3.5.0-0.2.4',
+36 silly resolved        'cordova-lib': 'git://github.com/apache/cordova-lib.git#3623a84eb391f41c5a32ddc67eea89512c4ba654',
+36 silly resolved        'connect-phonegap': '0.11.0',
+36 silly resolved        optimist: '0.6.0',
+36 silly resolved        'phonegap-build': '0.8.4',
+36 silly resolved        pluralize: '0.0.4',
+36 silly resolved        prompt: '0.2.11',
+36 silly resolved        'qrcode-terminal': '0.9.4',
+36 silly resolved        semver: '1.1.0',
+36 silly resolved        shelljs: '0.1.4' },
+36 silly resolved     devDependencies: { 'jasmine-node': '1.8.0', chdir: '0.0.x' },
+36 silly resolved     optionalDependencies: {},
+36 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+36 silly resolved     readme: '# PhoneGap CLI [![Build Status][travis-ci-img]][travis-ci-url]\n\n> PhoneGap command-line interface and Node.js library.\n\n\n## Command-line\n\n### Requirements\n\n- [Install node.js](http://nodejs.org/) version `>=0.10.x`\n- [Install ios-sim](https://github.com/phonegap/ios-sim#installation) to deploy apps to the iOS simulator.\n\n### Install\n\n    $ npm install -g phonegap\n\n### Getting Started\n\n    $ phonegap create my-app    # create a PhoneGap project\n    $ cd my-app                 # change to project directory\n    $ phonegap run ios          # build and install the app to iOS\n\n### Usage\n\n    Usage: phonegap [options] [commands]\n\n    Description:\n\n      PhoneGap command-line tool.\n\n    Commands:\n\n      create <path>        create a phonegap project\n      build <platform>     build the project for specific platform\n      install <platform>   install the project on a specific platform\n      run <platform>       build and install the projectfor specific platform\n      serve                serve a phonegap project\n      local [command]      development on local system\n      remote [command]     development in cloud with phonegap/build\n      platform [command]   update a platform version\n      help [command]       output usage information\n      version              output version number\n\n    Options:\n\n      -d, --verbose        allow verbose output\n      -v, --version        output version number\n      -h, --help           output usage information\n\n    Platforms:\n\n      keyword            | local environment | remote environment\n      -------------------|-------------------|-------------------\n      android            | ✔                 | ✔\n      blackberry10       | ✔                 | ✖\n      ios                | ✔                 | ✔\n      wp8                | ✔                 | ✔\n\n\n    Examples:\n\n      $ phonegap help create\n      $ phonegap help remote build\n      $ phonegap create path/to/my-app\n      $ phonegap remote build android\n\n#### Local Usage\n\n    Usage: phonegap local [command]\n\n    Description:\n\n      Executes the command on the local system.\n\n      This requires that platform SDK is correctly installed.\n\n    Commands:\n\n      build <platform>     build a specific platform\n      install <platform>   install a specific platform\n      run <platform>       build and install a specific platform\n      plugin <command>     add, remove, and list plugins\n\n    Examples:\n\n      $ phonegap local build android\n      $ phonegap local run android\n      $ phonegap local plugin list\n\n#### Remote Usage\n\n    Usage: phonegap remote [command]\n\n    Description:\n\n      Executes the command remotely using the cloud-based PhoneGap/Build service.\n\n    Commands:\n\n      login                login to PhoneGap/Build\n      logout               logout of PhoneGap/Build\n      build <platform>     build a specific platform\n      install <platform>   install a specific platform\n      run <platform>       build and install a specific platform\n\n    Examples:\n\n      $ phonegap remote login\n      $ phonegap remote build android\n      $ phonegap remote run android\n\n## Node Library\n\n### Usage\n\n    var phonegap = require(\'phonegap\');\n\n## FAQ\n\n### phonegap: command not found\n\n#### Problem\n\nThe PhoneGap CLI installs successfully but you do not have a command `phonegap`.\n\n#### Reason\n\nDepending on how `node` and `npm` were installed, your globally installed npm\nmodules may not be in your `PATH`.\n\n#### Solution\n\nAt the bottom of your `npm install -g phonegap` installation log, you will see the following:\n\n    ...\n    /usr/local/share/npm/bin/phonegap -> /usr/local/share/npm/lib/node_modules/phonegap/bin/phonegap.js\n    ...\n\n_(Your path may be slightly different)_\n\nOpen `~/.profile` or `~/.bashrc`, depending on what exists on your system, and add following line:\n\n    export PATH=$PATH:/usr/local/share/npm/bin\n\nOpen a new terminal tab or type the following command:\n\n    $ source ~/.profile\n    or\n    $ source ~/.bashrc\n\nThe command `phonegap` should now be available to you.\n\n### The provided path is not an Android project\n\n#### Problem\n\nYou receive the following error message when building an Android project:\n\n    throw new Error(\'The provided path "\' + project + \'" is not an Android\n\n#### Reason\n\nThe first time that you build for a platform, the framework is downloaded from Apache Cordova.\n\nThe framework is stored locally in your home directory, such as `~/.cordova/lib`.\n\nSometimes the framework is corrupted during the download. It can exist for two\nknow reasons:\n\n1. Your Android SDK environment is not properly configured.\n1. Unknown issue related to Apache\'s servers or the untar operation.\n\n#### Solution\n\nFirst, you must properly configure your Android environment by following\nthe [platform setup guide](http://docs.phonegap.com/en/3.0.0/guide_platforms_android_index.md.html).\n\nNext, you must delete the cached Cordova Android framework (`x.x.x` is your version):\n\n    ~/.cordova/lib/android/cordova/x.x.x\n\nNext, you can try to rebuild the project. Enabling verbose mode is sometimes helpful:\n\n    $ phonegap build android --verbose\n\n## Upgrading Cordova\n\nThere are a few steps that should be taken when upgrading to a new version of the\n[cordova-cli](http://github.com/apache/cordova-cli).\n\n1. Update the `package.json` dependencies version for `cordova`.\n\n        {\n          "dependencies": {\n            "cordova": "3.1.0"\n          }\n        }\n\n1. Update the `package.json` version.\n\n        {\n          "version": "3.1.0-0.15.0"\n        }\n\n1. Run the tests.\n\n        $ npm test\n\n1. Commit stating the version increment.\n\n        $ git commit -am "Version 3.1.0-0.15.0"\n\n1. Tag the version commit.\n\n        $ git tag 3.1.0-0.15.0\n\n1. Update the [PhoneGap Hello World App](https://github.com/phonegap/phonegap-app-hello-world) to match the new version.\n  - See [Update instructions](https://github.com/phonegap/phonegap-app-hello-world#updating-the-application).\n  - In the above example, we would update the app to `3.1.0`.\n1. Manually test that the latest Hello World app is lazy-loaded.\n\n        # Link the phonegap-cli for easier development (only need to do once).\n\n        $ cd phonegap-cli/\n        $ [sudo] npm link .\n\n        # Manually test and verify hello world app is lazy-loaded.\n\n        $ phonegap create my-app\n        [phonegap] missing library phonegap/www/3.1.0\n        [phonegap] downloading https://github.com/phonegap/phonegap-app-hello-world/archive/3.1.0.tar.gz...\n        [phonegap] created project at /Users/mwbrooks/Development/sandbox/my-app\n\n        $ cd my-app/\n        $ phonegap run ios\n\n1. Push the git commit after the Hello World has been updated.\n\n        $ git push phonegap master\n\n1. Publish the npm release.\n\n        $ npm publish\n\n[travis-ci-img]: https://travis-ci.org/phonegap/phonegap-cli.png?branch=master\n[travis-ci-url]: http://travis-ci.org/phonegap/phonegap-cli\n\n',
+36 silly resolved     readmeFilename: 'README.md',
+36 silly resolved     bugs: { url: 'https://github.com/phonegap/phonegap-cli/issues' },
+36 silly resolved     _id: 'phonegap@3.5.0-0.20.4',
+36 silly resolved     _shasum: '5525be081adb821a8700e3ad2ef255d8ecc93d77',
+36 silly resolved     _from: 'phonegap@',
+36 silly resolved     _resolved: 'https://registry.npmjs.org/phonegap/-/phonegap-3.5.0-0.20.4.tgz' } ]
+37 info install phonegap@3.5.0-0.20.4 into C:\Users\user1\AppData\Roaming\npm
+38 info installOne phonegap@3.5.0-0.20.4
+39 info C:\Users\user1\AppData\Roaming\npm\node_modules\phonegap unbuild
+40 verbose tar unpack C:\Users\user1\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.4\package.tgz
+41 silly lockFile a57de14a-oaming-npm-node-modules-phonegap tar://C:\Users\user1\AppData\Roaming\npm\node_modules\phonegap
+42 verbose lock tar://C:\Users\user1\AppData\Roaming\npm\node_modules\phonegap C:\Users\user1\AppData\Roaming\npm-cache\a57de14a-oaming-npm-node-modules-phonegap.lock
+43 silly lockFile ab02bb1f-honegap-3-5-0-0-20-4-package-tgz tar://C:\Users\user1\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.4\package.tgz
+44 verbose lock tar://C:\Users\user1\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.4\package.tgz C:\Users\user1\AppData\Roaming\npm-cache\ab02bb1f-honegap-3-5-0-0-20-4-package-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry .npmignore
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm extractEntry LICENSE
+50 silly gunzTarPerm extractEntry COPYRIGHT
+51 silly gunzTarPerm extractEntry NOTICE
+52 silly gunzTarPerm extractEntry .travis.yml
+53 silly gunzTarPerm extractEntry bin/phonegap.js
+54 silly gunzTarPerm extractEntry doc/cli/help.platform.txt
+55 silly gunzTarPerm extractEntry doc/cli/help.build.txt
+56 silly gunzTarPerm extractEntry doc/cli/help.install.txt
+57 silly gunzTarPerm extractEntry doc/cli/help.local.build.txt
+58 silly gunzTarPerm extractEntry doc/cli/help.local.install.txt
+59 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.add.txt
+60 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.list.txt
+61 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.remove.txt
+62 silly gunzTarPerm extractEntry doc/cli/help.local.plugin.txt
+63 silly gunzTarPerm extractEntry doc/cli/help.local.run.txt
+64 silly gunzTarPerm extractEntry doc/cli/help.local.txt
+65 silly gunzTarPerm extractEntry doc/cli/help.create.txt
+66 silly gunzTarPerm extractEntry doc/cli/help.platform.update.txt
+67 silly gunzTarPerm extractEntry doc/cli/help.remote.build.txt
+68 silly gunzTarPerm extractEntry doc/cli/help.remote.install.txt
+69 silly gunzTarPerm extractEntry doc/cli/help.remote.login.txt
+70 silly gunzTarPerm extractEntry doc/cli/help.remote.logout.txt
+71 silly gunzTarPerm extractEntry doc/cli/help.remote.run.txt
+72 silly gunzTarPerm extractEntry doc/cli/help.remote.txt
+73 silly gunzTarPerm extractEntry doc/cli/help.run.txt
+74 silly gunzTarPerm extractEntry doc/cli/help.serve.txt
+75 silly gunzTarPerm extractEntry doc/cli/help.txt
+76 silly gunzTarPerm extractEntry lib/cli.js
+77 silly gunzTarPerm extractEntry lib/main.js
+78 silly gunzTarPerm extractEntry lib/phonegap.js
+79 silly gunzTarPerm extractEntry lib/cli/argv.js
+80 silly gunzTarPerm extractEntry lib/cli/local.plugin.remove.js
+81 silly gunzTarPerm extractEntry lib/cli/local.run.js
+82 silly gunzTarPerm extractEntry lib/cli/platform.js
+83 silly gunzTarPerm extractEntry lib/cli/local.plugin.list.js
+84 silly gunzTarPerm extractEntry lib/cli/build.js
+85 silly gunzTarPerm extractEntry lib/cli/plugin.js
+86 silly gunzTarPerm extractEntry lib/cli/plugin.list.js
+87 silly gunzTarPerm extractEntry lib/cli/plugin.remove.js
+88 silly gunzTarPerm extractEntry lib/cli/remote.build.js
+89 silly gunzTarPerm extractEntry lib/cli/local.plugin.js
+90 silly gunzTarPerm extractEntry lib/cli/remote.install.js
+91 silly gunzTarPerm extractEntry lib/cli/local.plugin.add.js
+92 silly gunzTarPerm extractEntry lib/cli/remote.js
+93 silly gunzTarPerm extractEntry lib/cli/local.js
+94 silly gunzTarPerm extractEntry lib/cli/remote.login.js
+95 silly gunzTarPerm extractEntry lib/cli/local.install.js
+96 silly gunzTarPerm extractEntry lib/cli/remote.logout.js
+97 silly gunzTarPerm extractEntry lib/cli/local.build.js
+98 silly gunzTarPerm extractEntry lib/cli/remote.run.js
+99 silly gunzTarPerm extractEntry lib/cli/install.js
+100 silly gunzTarPerm extractEntry lib/cli/run.js
+101 silly gunzTarPerm extractEntry lib/cli/help.js
+102 silly gunzTarPerm extractEntry lib/cli/serve.js
+103 silly gunzTarPerm extractEntry lib/cli/create.js
+104 silly gunzTarPerm extractEntry lib/cli/unknown.js
+105 silly gunzTarPerm extractEntry lib/cli/platform.update.js
+106 silly gunzTarPerm extractEntry lib/cli/version.js
+107 silly gunzTarPerm extractEntry lib/cli/plugin.add.js
+108 silly gunzTarPerm extractEntry lib/cli/util/console.js
+109 silly gunzTarPerm extractEntry lib/common/config.js
+110 silly gunzTarPerm extractEntry lib/common/config/global.js
+111 silly gunzTarPerm extractEntry lib/common/config/local.js
+112 silly gunzTarPerm extractEntry lib/phonegap/build.js
+113 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.list.js
+114 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.remove.js
+115 silly gunzTarPerm extractEntry lib/phonegap/local.run.js
+116 silly gunzTarPerm extractEntry lib/phonegap/local.plugin.add.js
+117 silly gunzTarPerm extractEntry lib/phonegap/create.js
+118 silly gunzTarPerm extractEntry lib/phonegap/remote.build.js
+119 silly gunzTarPerm extractEntry lib/phonegap/remote.install.js
+120 silly gunzTarPerm extractEntry lib/phonegap/remote.login.js
+121 silly gunzTarPerm extractEntry lib/phonegap/remote.logout.js
+122 silly gunzTarPerm extractEntry lib/phonegap/local.install.js
+123 silly gunzTarPerm extractEntry lib/phonegap/remote.run.js
+124 silly gunzTarPerm extractEntry lib/phonegap/local.build.js
+125 silly gunzTarPerm extractEntry lib/phonegap/run.js
+126 silly gunzTarPerm extractEntry lib/phonegap/install.js
+127 silly gunzTarPerm extractEntry lib/phonegap/serve.js
+128 silly gunzTarPerm extractEntry lib/phonegap/mode.js
+129 silly gunzTarPerm extractEntry lib/phonegap/version.js
+130 silly gunzTarPerm extractEntry lib/phonegap/platform.update.js
+131 silly gunzTarPerm extractEntry lib/phonegap/util/command.js
+132 silly gunzTarPerm extractEntry lib/phonegap/util/phonegap-build.js
+133 silly gunzTarPerm extractEntry lib/phonegap/util/platform.js
+134 silly gunzTarPerm extractEntry lib/phonegap/util/project.js
+135 silly gunzTarPerm extractEntry CONTRIBUTING.md
+136 silly gunzTarPerm extractEntry spec/cli.spec.js
+137 silly gunzTarPerm extractEntry spec/main.spec.js
+138 silly gunzTarPerm extractEntry spec/phonegap.spec.js
+139 silly gunzTarPerm extractEntry spec/cli/app.spec.js
+140 silly gunzTarPerm extractEntry spec/cli/local.run.spec.js
+141 silly gunzTarPerm extractEntry spec/cli/local.spec.js
+142 silly gunzTarPerm extractEntry spec/cli/platform.spec.js
+143 silly gunzTarPerm extractEntry spec/cli/platform.update.spec.js
+144 silly gunzTarPerm extractEntry spec/cli/local.plugin.spec.js
+145 silly gunzTarPerm extractEntry spec/cli/plugin.list.spec.js
+146 silly gunzTarPerm extractEntry spec/cli/plugin.remove.spec.js
+147 silly gunzTarPerm extractEntry spec/cli/plugin.spec.js
+148 silly gunzTarPerm extractEntry spec/cli/remote.build.spec.js
+149 silly gunzTarPerm extractEntry spec/cli/remote.install.spec.js
+150 silly gunzTarPerm extractEntry spec/cli/local.plugin.remove.spec.js
+151 silly gunzTarPerm extractEntry spec/cli/remote.login.spec.js
+152 silly gunzTarPerm extractEntry spec/cli/local.plugin.list.spec.js
+153 silly gunzTarPerm extractEntry spec/cli/remote.logout.spec.js
+154 silly gunzTarPerm extractEntry spec/cli/local.plugin.add.spec.js
+155 silly gunzTarPerm extractEntry spec/cli/remote.run.spec.js
+156 silly gunzTarPerm extractEntry spec/cli/local.install.spec.js
+157 silly gunzTarPerm extractEntry spec/cli/remote.spec.js
+158 silly gunzTarPerm extractEntry spec/cli/local.build.spec.js
+159 silly gunzTarPerm extractEntry spec/cli/run.spec.js
+160 silly gunzTarPerm extractEntry spec/cli/install.spec.js
+161 silly gunzTarPerm extractEntry spec/cli/serve.spec.js
+162 silly gunzTarPerm extractEntry spec/cli/help.spec.js
+163 silly gunzTarPerm extractEntry spec/cli/unknown.spec.js
+164 silly gunzTarPerm extractEntry spec/cli/create.spec.js
+165 silly gunzTarPerm extractEntry spec/cli/verbose.spec.js
+166 silly gunzTarPerm extractEntry spec/cli/build.spec.js
+167 silly gunzTarPerm extractEntry spec/cli/version.spec.js
+168 silly gunzTarPerm extractEntry spec/cli/plugin.add.spec.js
+169 silly gunzTarPerm extractEntry spec/common/config/global.spec.js
+170 silly gunzTarPerm extractEntry spec/common/config/local.spec.js
+171 silly gunzTarPerm extractEntry spec/phonegap/app.spec.js
+172 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.remove.spec.js
+173 silly gunzTarPerm extractEntry spec/phonegap/local.run.spec.js
+174 silly gunzTarPerm extractEntry spec/phonegap/mode.spec.js
+175 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.list.spec.js
+176 silly gunzTarPerm extractEntry spec/phonegap/build.spec.js
+177 silly gunzTarPerm extractEntry spec/phonegap/plugin.list.spec.js
+178 silly gunzTarPerm extractEntry spec/phonegap/plugin.remove.spec.js
+179 silly gunzTarPerm extractEntry spec/phonegap/remote.build.spec.js
+180 silly gunzTarPerm extractEntry spec/phonegap/remote.install.spec.js
+181 silly gunzTarPerm extractEntry spec/phonegap/local.plugin.add.spec.js
+182 silly gunzTarPerm extractEntry spec/phonegap/remote.login.spec.js
+183 silly gunzTarPerm extractEntry spec/phonegap/local.install.spec.js
+184 silly gunzTarPerm extractEntry spec/phonegap/remote.logout.spec.js
+185 silly gunzTarPerm extractEntry spec/phonegap/local.build.spec.js
+186 silly gunzTarPerm extractEntry spec/phonegap/remote.run.spec.js
+187 silly gunzTarPerm extractEntry spec/phonegap/install.spec.js
+188 silly gunzTarPerm extractEntry spec/phonegap/run.spec.js
+189 silly gunzTarPerm extractEntry spec/phonegap/create.spec.js
+190 silly gunzTarPerm extractEntry spec/phonegap/serve.spec.js
+191 silly gunzTarPerm extractEntry spec/phonegap/platform.update.spec.js
+192 silly gunzTarPerm extractEntry spec/phonegap/version.spec.js
+193 silly gunzTarPerm extractEntry spec/phonegap/plugin.add.spec.js
+194 silly gunzTarPerm extractEntry spec/phonegap/util/platform.spec.js
+195 silly gunzTarPerm extractEntry spec/phonegap/util/project.spec.js
+196 silly lockFile a57de14a-oaming-npm-node-modules-phonegap tar://C:\Users\user1\AppData\Roaming\npm\node_modules\phonegap
+197 silly lockFile a57de14a-oaming-npm-node-modules-phonegap tar://C:\Users\user1\AppData\Roaming\npm\node_modules\phonegap
+198 silly lockFile ab02bb1f-honegap-3-5-0-0-20-4-package-tgz tar://C:\Users\user1\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.4\package.tgz
+199 silly lockFile ab02bb1f-honegap-3-5-0-0-20-4-package-tgz tar://C:\Users\user1\AppData\Roaming\npm-cache\phonegap\3.5.0-0.20.4\package.tgz
+200 info preinstall phonegap@3.5.0-0.20.4
+201 verbose readDependencies using package.json deps
+202 verbose readDependencies using package.json deps
+203 verbose cache add [ 'colors@0.6.0-1', null ]
+204 verbose cache add name=undefined spec="colors@0.6.0-1" args=["colors@0.6.0-1",null]
+205 verbose parsed url { protocol: null,
+205 verbose parsed url   slashes: null,
+205 verbose parsed url   auth: null,
+205 verbose parsed url   host: null,
+205 verbose parsed url   port: null,
+205 verbose parsed url   hostname: null,
+205 verbose parsed url   hash: null,
+205 verbose parsed url   search: null,
+205 verbose parsed url   query: null,
+205 verbose parsed url   pathname: 'colors@0.6.0-1',
+205 verbose parsed url   path: 'colors@0.6.0-1',
+205 verbose parsed url   href: 'colors@0.6.0-1' }
+206 verbose cache add name="colors" spec="0.6.0-1" args=["colors","0.6.0-1"]
+207 verbose parsed url { protocol: null,
+207 verbose parsed url   slashes: null,
+207 verbose parsed url   auth: null,
+207 verbose parsed url   host: null,
+207 verbose parsed url   port: null,
+207 verbose parsed url   hostname: null,
+207 verbose parsed url   hash: null,
+207 verbose parsed url   search: null,
+207 verbose parsed url   query: null,
+207 verbose parsed url   pathname: '0.6.0-1',
+207 verbose parsed url   path: '0.6.0-1',
+207 verbose parsed url   href: '0.6.0-1' }
+208 verbose addNamed [ 'colors', '0.6.0-1' ]
+209 verbose addNamed [ '0.6.0-1', '0.6.0-1' ]
+210 silly lockFile 02eba27f-colors-0-6-0-1 colors@0.6.0-1
+211 verbose lock colors@0.6.0-1 C:\Users\user1\AppData\Roaming\npm-cache\02eba27f-colors-0-6-0-1.lock
+212 verbose cache add [ 'cordova@3.5.0-0.2.4', null ]
+213 verbose cache add name=undefined spec="cordova@3.5.0-0.2.4" args=["cordova@3.5.0-0.2.4",null]
+214 verbose parsed url { protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: 'cordova@3.5.0-0.2.4',
+214 verbose parsed url   path: 'cordova@3.5.0-0.2.4',
+214 verbose parsed url   href: 'cordova@3.5.0-0.2.4' }
+215 verbose cache add name="cordova" spec="3.5.0-0.2.4" args=["cordova","3.5.0-0.2.4"]
+216 verbose parsed url { protocol: null,
+216 verbose parsed url   slashes: null,
+216 verbose parsed url   auth: null,
+216 verbose parsed url   host: null,
+216 verbose parsed url   port: null,
+216 verbose parsed url   hostname: null,
+216 verbose parsed url   hash: null,
+216 verbose parsed url   search: null,
+216 verbose parsed url   query: null,
+216 verbose parsed url   pathname: '3.5.0-0.2.4',
+216 verbose parsed url   path: '3.5.0-0.2.4',
+216 verbose parsed url   href: '3.5.0-0.2.4' }
+217 verbose addNamed [ 'cordova', '3.5.0-0.2.4' ]
+218 verbose addNamed [ '3.5.0-0.2.4', '3.5.0-0.2.4' ]
+219 silly lockFile b06f4b23-cordova-3-5-0-0-2-4 cordova@3.5.0-0.2.4
+220 verbose lock cordova@3.5.0-0.2.4 C:\Users\user1\AppData\Roaming\npm-cache\b06f4b23-cordova-3-5-0-0-2-4.lock
+221 verbose cache add [ 'cordova-lib@git://github.com/apache/cordova-lib.git#3623a84eb391f41c5a32ddc67eea89512c4ba654',
+221 verbose cache add   null ]
+222 verbose cache add name=undefined spec="cordova-lib@git://github.com/apache/cordova-lib.git#3623a84eb391f41c5a32ddc67eea89512c4ba654" args=["cordova-lib@git://github.com/apache/cordova-lib.git#3623a84eb391f41c5a32ddc67eea89512c4ba654",null]
+223 verbose parsed url { protocol: null,
+223 verbose parsed url   slashes: null,
+223 verbose parsed url   auth: null,
+223 verbose parsed url   host: null,
+223 verbose parsed url   port: null,
+223 verbose parsed url   hostname: null,
+223 verbose parsed url   hash: '#3623a84eb391f41c5a32ddc67eea89512c4ba654',
+223 verbose parsed url   search: null,
+223 verbose parsed url   query: null,
+223 verbose parsed url   pathname: 'cordova-lib@git://github.com/apache/cordova-lib.git',
+223 verbose parsed url   path: 'cordova-lib@git://github.com/apache/cordova-lib.git',
+223 verbose parsed url   href: 'cordova-lib@git://github.com/apache/cordova-lib.git#3623a84eb391f41c5a32ddc67eea89512c4ba654' }
+224 verbose cache add [ 'connect-phonegap@0.11.0', null ]
+225 verbose cache add name=undefined spec="connect-phonegap@0.11.0" args=["connect-phonegap@0.11.0",null]
+226 verbose parsed url { protocol: null,
+226 verbose parsed url   slashes: null,
+226 verbose parsed url   auth: null,
+226 verbose parsed url   host: null,
+226 verbose parsed url   port: null,
+226 verbose parsed url   hostname: null,
+226 verbose parsed url   hash: null,
+226 verbose parsed url   search: null,
+226 verbose parsed url   query: null,
+226 verbose parsed url   pathname: 'connect-phonegap@0.11.0',
+226 verbose parsed url   path: 'connect-phonegap@0.11.0',
+226 verbose parsed url   href: 'connect-phonegap@0.11.0' }
+227 verbose cache add name="connect-phonegap" spec="0.11.0" args=["connect-phonegap","0.11.0"]
+228 verbose parsed url { protocol: null,
+228 verbose parsed url   slashes: null,
+228 verbose parsed url   auth: null,
+228 verbose parsed url   host: null,
+228 verbose parsed url   port: null,
+228 verbose parsed url   hostname: null,
+228 verbose parsed url   hash: null,
+228 verbose parsed url   search: null,
+228 verbose parsed url   query: null,
+228 verbose parsed url   pathname: '0.11.0',
+228 verbose parsed url   path: '0.11.0',
+228 verbose parsed url   href: '0.11.0' }
+229 verbose addNamed [ 'connect-phonegap', '0.11.0' ]
+230 verbose addNamed [ '0.11.0', '0.11.0' ]
+231 silly lockFile 81991e6d-connect-phonegap-0-11-0 connect-phonegap@0.11.0
+232 verbose lock connect-phonegap@0.11.0 C:\Users\user1\AppData\Roaming\npm-cache\81991e6d-connect-phonegap-0-11-0.lock
+233 verbose cache add [ 'optimist@0.6.0', null ]
+234 verbose cache add name=undefined spec="optimist@0.6.0" args=["optimist@0.6.0",null]
+235 verbose parsed url { protocol: null,
+235 verbose parsed url   slashes: null,
+235 verbose parsed url   auth: null,
+235 verbose parsed url   host: null,
+235 verbose parsed url   port: null,
+235 verbose parsed url   hostname: null,
+235 verbose parsed url   hash: null,
+235 verbose parsed url   search: null,
+235 verbose parsed url   query: null,
+235 verbose parsed url   pathname: 'optimist@0.6.0',
+235 verbose parsed url   path: 'optimist@0.6.0',
+235 verbose parsed url   href: 'optimist@0.6.0' }
+236 verbose cache add name="optimist" spec="0.6.0" args=["optimist","0.6.0"]
+237 verbose parsed url { protocol: null,
+237 verbose parsed url   slashes: null,
+237 verbose parsed url   auth: null,
+237 verbose parsed url   host: null,
+237 verbose parsed url   port: null,
+237 verbose parsed url   hostname: null,
+237 verbose parsed url   hash: null,
+237 verbose parsed url   search: null,
+237 verbose parsed url   query: null,
+237 verbose parsed url   pathname: '0.6.0',
+237 verbose parsed url   path: '0.6.0',
+237 verbose parsed url   href: '0.6.0' }
+238 verbose addNamed [ 'optimist', '0.6.0' ]
+239 verbose addNamed [ '0.6.0', '0.6.0' ]
+240 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+241 verbose lock optimist@0.6.0 C:\Users\user1\AppData\Roaming\npm-cache\6403b4d6-optimist-0-6-0.lock
+242 verbose cache add [ 'phonegap-build@0.8.4', null ]
+243 verbose cache add name=undefined spec="phonegap-build@0.8.4" args=["phonegap-build@0.8.4",null]
+244 verbose parsed url { protocol: null,
+244 verbose parsed url   slashes: null,
+244 verbose parsed url   auth: null,
+244 verbose parsed url   host: null,
+244 verbose parsed url   port: null,
+244 verbose parsed url   hostname: null,
+244 verbose parsed url   hash: null,
+244 verbose parsed url   search: null,
+244 verbose parsed url   query: null,
+244 verbose parsed url   pathname: 'phonegap-build@0.8.4',
+244 verbose parsed url   path: 'phonegap-build@0.8.4',
+244 verbose parsed url   href: 'phonegap-build@0.8.4' }
+245 verbose cache add name="phonegap-build" spec="0.8.4" args=["phonegap-build","0.8.4"]
+246 verbose parsed url { protocol: null,
+246 verbose parsed url   slashes: null,
+246 verbose parsed url   auth: null,
+246 verbose parsed url   host: null,
+246 verbose parsed url   port: null,
+246 verbose parsed url   hostname: null,
+246 verbose parsed url   hash: null,
+246 verbose parsed url   search: null,
+246 verbose parsed url   query: null,
+246 verbose parsed url   pathname: '0.8.4',
+246 verbose parsed url   path: '0.8.4',
+246 verbose parsed url   href: '0.8.4' }
+247 verbose addNamed [ 'phonegap-build', '0.8.4' ]
+248 verbose addNamed [ '0.8.4', '0.8.4' ]
+249 silly lockFile cbe686af-phonegap-build-0-8-4 phonegap-build@0.8.4
+250 verbose lock phonegap-build@0.8.4 C:\Users\user1\AppData\Roaming\npm-cache\cbe686af-phonegap-build-0-8-4.lock
+251 verbose cache add [ 'pluralize@0.0.4', null ]
+252 verbose cache add name=undefined spec="pluralize@0.0.4" args=["pluralize@0.0.4",null]
+253 verbose parsed url { protocol: null,
+253 verbose parsed url   slashes: null,
+253 verbose parsed url   auth: null,
+253 verbose parsed url   host: null,
+253 verbose parsed url   port: null,
+253 verbose parsed url   hostname: null,
+253 verbose parsed url   hash: null,
+253 verbose parsed url   search: null,
+253 verbose parsed url   query: null,
+253 verbose parsed url   pathname: 'pluralize@0.0.4',
+253 verbose parsed url   path: 'pluralize@0.0.4',
+253 verbose parsed url   href: 'pluralize@0.0.4' }
+254 verbose cache add name="pluralize" spec="0.0.4" args=["pluralize","0.0.4"]
+255 verbose parsed url { protocol: null,
+255 verbose parsed url   slashes: null,
+255 verbose parsed url   auth: null,
+255 verbose parsed url   host: null,
+255 verbose parsed url   port: null,
+255 verbose parsed url   hostname: null,
+255 verbose parsed url   hash: null,
+255 verbose parsed url   search: null,
+255 verbose parsed url   query: null,
+255 verbose parsed url   pathname: '0.0.4',
+255 verbose parsed url   path: '0.0.4',
+255 verbose parsed url   href: '0.0.4' }
+256 verbose addNamed [ 'pluralize', '0.0.4' ]
+257 verbose addNamed [ '0.0.4', '0.0.4' ]
+258 silly lockFile 31820ee3-pluralize-0-0-4 pluralize@0.0.4
+259 verbose lock pluralize@0.0.4 C:\Users\user1\AppData\Roaming\npm-cache\31820ee3-pluralize-0-0-4.lock
+260 verbose cache add [ 'prompt@0.2.11', null ]
+261 verbose cache add name=undefined spec="prompt@0.2.11" args=["prompt@0.2.11",null]
+262 verbose parsed url { protocol: null,
+262 verbose parsed url   slashes: null,
+262 verbose parsed url   auth: null,
+262 verbose parsed url   host: null,
+262 verbose parsed url   port: null,
+262 verbose parsed url   hostname: null,
+262 verbose parsed url   hash: null,
+262 verbose parsed url   search: null,
+262 verbose parsed url   query: null,
+262 verbose parsed url   pathname: 'prompt@0.2.11',
+262 verbose parsed url   path: 'prompt@0.2.11',
+262 verbose parsed url   href: 'prompt@0.2.11' }
+263 verbose cache add name="prompt" spec="0.2.11" args=["prompt","0.2.11"]
+264 verbose parsed url { protocol: null,
+264 verbose parsed url   slashes: null,
+264 verbose parsed url   auth: null,
+264 verbose parsed url   host: null,
+264 verbose parsed url   port: null,
+264 verbose parsed url   hostname: null,
+264 verbose parsed url   hash: null,
+264 verbose parsed url   search: null,
+264 verbose parsed url   query: null,
+264 verbose parsed url   pathname: '0.2.11',
+264 verbose parsed url   path: '0.2.11',
+264 verbose parsed url   href: '0.2.11' }
+265 verbose addNamed [ 'prompt', '0.2.11' ]
+266 verbose addNamed [ '0.2.11', '0.2.11' ]
+267 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+268 verbose lock prompt@0.2.11 C:\Users\user1\AppData\Roaming\npm-cache\61856ab9-prompt-0-2-11.lock
+269 verbose cache add [ 'qrcode-terminal@0.9.4', null ]
+270 verbose cache add name=undefined spec="qrcode-terminal@0.9.4" args=["qrcode-terminal@0.9.4",null]
+271 verbose parsed url { protocol: null,
+271 verbose parsed url   slashes: null,
+271 verbose parsed url   auth: null,
+271 verbose parsed url   host: null,
+271 verbose parsed url   port: null,
+271 verbose parsed url   hostname: null,
+271 verbose parsed url   hash: null,
+271 verbose parsed url   search: null,
+271 verbose parsed url   query: null,
+271 verbose parsed url   pathname: 'qrcode-terminal@0.9.4',
+271 verbose parsed url   path: 'qrcode-terminal@0.9.4',
+271 verbose parsed url   href: 'qrcode-terminal@0.9.4' }
+272 verbose cache add name="qrcode-terminal" spec="0.9.4" args=["qrcode-terminal","0.9.4"]
+273 verbose parsed url { protocol: null,
+273 verbose parsed url   slashes: null,
+273 verbose parsed url   auth: null,
+273 verbose parsed url   host: null,
+273 verbose parsed url   port: null,
+273 verbose parsed url   hostname: null,
+273 verbose parsed url   hash: null,
+273 verbose parsed url   search: null,
+273 verbose parsed url   query: null,
+273 verbose parsed url   pathname: '0.9.4',
+273 verbose parsed url   path: '0.9.4',
+273 verbose parsed url   href: '0.9.4' }
+274 verbose addNamed [ 'qrcode-terminal', '0.9.4' ]
+275 verbose addNamed [ '0.9.4', '0.9.4' ]
+276 silly lockFile b8302fc0-qrcode-terminal-0-9-4 qrcode-terminal@0.9.4
+277 verbose lock qrcode-terminal@0.9.4 C:\Users\user1\AppData\Roaming\npm-cache\b8302fc0-qrcode-terminal-0-9-4.lock
+278 verbose cache add [ 'semver@1.1.0', null ]
+279 verbose cache add name=undefined spec="semver@1.1.0" args=["semver@1.1.0",null]
+280 verbose parsed url { protocol: null,
+280 verbose parsed url   slashes: null,
+280 verbose parsed url   auth: null,
+280 verbose parsed url   host: null,
+280 verbose parsed url   port: null,
+280 verbose parsed url   hostname: null,
+280 verbose parsed url   hash: null,
+280 verbose parsed url   search: null,
+280 verbose parsed url   query: null,
+280 verbose parsed url   pathname: 'semver@1.1.0',
+280 verbose parsed url   path: 'semver@1.1.0',
+280 verbose parsed url   href: 'semver@1.1.0' }
+281 verbose cache add name="semver" spec="1.1.0" args=["semver","1.1.0"]
+282 verbose parsed url { protocol: null,
+282 verbose parsed url   slashes: null,
+282 verbose parsed url   auth: null,
+282 verbose parsed url   host: null,
+282 verbose parsed url   port: null,
+282 verbose parsed url   hostname: null,
+282 verbose parsed url   hash: null,
+282 verbose parsed url   search: null,
+282 verbose parsed url   query: null,
+282 verbose parsed url   pathname: '1.1.0',
+282 verbose parsed url   path: '1.1.0',
+282 verbose parsed url   href: '1.1.0' }
+283 verbose addNamed [ 'semver', '1.1.0' ]
+284 verbose addNamed [ '1.1.0', '1.1.0' ]
+285 silly lockFile 740aca99-semver-1-1-0 semver@1.1.0
+286 verbose lock semver@1.1.0 C:\Users\user1\AppData\Roaming\npm-cache\740aca99-semver-1-1-0.lock
+287 verbose cache add [ 'shelljs@0.1.4', null ]
+288 verbose cache add name=undefined spec="shelljs@0.1.4" args=["shelljs@0.1.4",null]
+289 verbose parsed url { protocol: null,
+289 verbose parsed url   slashes: null,
+289 verbose parsed url   auth: null,
+289 verbose parsed url   host: null,
+289 verbose parsed url   port: null,
+289 verbose parsed url   hostname: null,
+289 verbose parsed url   hash: null,
+289 verbose parsed url   search: null,
+289 verbose parsed url   query: null,
+289 verbose parsed url   pathname: 'shelljs@0.1.4',
+289 verbose parsed url   path: 'shelljs@0.1.4',
+289 verbose parsed url   href: 'shelljs@0.1.4' }
+290 verbose cache add name="shelljs" spec="0.1.4" args=["shelljs","0.1.4"]
+291 verbose parsed url { protocol: null,
+291 verbose parsed url   slashes: null,
+291 verbose parsed url   auth: null,
+291 verbose parsed url   host: null,
+291 verbose parsed url   port: null,
+291 verbose parsed url   hostname: null,
+291 verbose parsed url   hash: null,
+291 verbose parsed url   search: null,
+291 verbose parsed url   query: null,
+291 verbose parsed url   pathname: '0.1.4',
+291 verbose parsed url   path: '0.1.4',
+291 verbose parsed url   href: '0.1.4' }
+292 verbose addNamed [ 'shelljs', '0.1.4' ]
+293 verbose addNamed [ '0.1.4', '0.1.4' ]
+294 silly lockFile 77595a32-shelljs-0-1-4 shelljs@0.1.4
+295 verbose lock shelljs@0.1.4 C:\Users\user1\AppData\Roaming\npm-cache\77595a32-shelljs-0-1-4.lock
+296 verbose cache add name="cordova-lib" spec="git://github.com/apache/cordova-lib.git#3623a84eb391f41c5a32ddc67eea89512c4ba654" args=["cordova-lib","git://github.com/apache/cordova-lib.git#3623a84eb391f41c5a32ddc67eea89512c4ba654"]
+297 verbose parsed url { protocol: 'git:',
+297 verbose parsed url   slashes: true,
+297 verbose parsed url   auth: null,
+297 verbose parsed url   host: 'github.com',
+297 verbose parsed url   port: null,
+297 verbose parsed url   hostname: 'github.com',
+297 verbose parsed url   hash: '#3623a84eb391f41c5a32ddc67eea89512c4ba654',
+297 verbose parsed url   search: null,
+297 verbose parsed url   query: null,
+297 verbose parsed url   pathname: '/apache/cordova-lib.git',
+297 verbose parsed url   path: '/apache/cordova-lib.git',
+297 verbose parsed url   href: 'git://github.com/apache/cordova-lib.git#3623a84eb391f41c5a32ddc67eea89512c4ba654' }
+298 silly lockFile 88508cc3-ithub-com-apache-cordova-lib-git git://github.com/apache/cordova-lib.git
+299 verbose lock git://github.com/apache/cordova-lib.git C:\Users\user1\AppData\Roaming\npm-cache\88508cc3-ithub-com-apache-cordova-lib-git.lock
+300 verbose addRemoteGit [ 'git://github.com/apache/cordova-lib.git',
+300 verbose addRemoteGit   '3623a84eb391f41c5a32ddc67eea89512c4ba654' ]
+301 verbose url raw connect-phonegap
+302 verbose url resolving [ 'https://registry.npmjs.org/', './connect-phonegap' ]
+303 verbose url resolved https://registry.npmjs.org/connect-phonegap
+304 info trying registry request attempt 1 at 20:34:49
+305 verbose etag "92LVSXRXU788NP2UJNGVA2MIH"
+306 http GET https://registry.npmjs.org/connect-phonegap
+307 verbose url raw phonegap-build
+308 verbose url resolving [ 'https://registry.npmjs.org/', './phonegap-build' ]
+309 verbose url resolved https://registry.npmjs.org/phonegap-build
+310 info trying registry request attempt 1 at 20:34:49
+311 verbose etag "2I9LX7NX4SF03B41UCMU4D6UH"
+312 http GET https://registry.npmjs.org/phonegap-build
+313 silly lockFile 88508cc3-ithub-com-apache-cordova-lib-git git://github.com/apache/cordova-lib.git
+314 silly lockFile 88508cc3-ithub-com-apache-cordova-lib-git git://github.com/apache/cordova-lib.git
+315 verbose about to build C:\Users\user1\AppData\Roaming\npm\node_modules\phonegap
+316 info C:\Users\user1\AppData\Roaming\npm\node_modules\phonegap unbuild
+317 info preuninstall phonegap@3.5.0-0.20.4
+318 info uninstall phonegap@3.5.0-0.20.4
+319 verbose true,C:\Users\user1\AppData\Roaming\npm\node_modules,C:\Users\user1\AppData\Roaming\npm\node_modules unbuild phonegap@3.5.0-0.20.4
+320 verbose C:\Users\user1\AppData\Roaming\npm,[object Object] binRoot
+321 info postuninstall phonegap@3.5.0-0.20.4
+322 verbose url raw qrcode-terminal
+323 verbose url resolving [ 'https://registry.npmjs.org/', './qrcode-terminal' ]
+324 verbose url resolved https://registry.npmjs.org/qrcode-terminal
+325 info trying registry request attempt 1 at 20:34:49
+326 verbose etag "7XCW95F2XVNI1C4TBKCCVQ6SE"
+327 http GET https://registry.npmjs.org/qrcode-terminal
+328 http 304 https://registry.npmjs.org/phonegap-build
+329 silly registry.get cb [ 304,
+329 silly registry.get   { date: 'Tue, 10 Jun 2014 13:34:51 GMT',
+329 silly registry.get     server: 'Apache',
+329 silly registry.get     via: '1.1 varnish',
+329 silly registry.get     'last-modified': 'Tue, 10 Jun 2014 13:34:52 GMT',
+329 silly registry.get     'cache-control': 'max-age=1',
+329 silly registry.get     etag: '"2I9LX7NX4SF03B41UCMU4D6UH"',
+329 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+329 silly registry.get     'x-cache': 'MISS',
+329 silly registry.get     'x-cache-hits': '0',
+329 silly registry.get     'x-timer': 'S1402407291.843783,VS0,VE219',
+329 silly registry.get     vary: 'Accept',
+329 silly registry.get     'content-length': '0',
+329 silly registry.get     'keep-alive': 'timeout=10, max=50',
+329 silly registry.get     connection: 'Keep-Alive' } ]
+330 verbose etag phonegap-build from cache
+331 verbose url raw optimist
+332 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+333 verbose url resolved https://registry.npmjs.org/optimist
+334 info trying registry request attempt 1 at 20:34:50
+335 verbose etag "EZYZRZ03EGW27GH6KTQGUF8UI"
+336 http GET https://registry.npmjs.org/optimist
+337 http 304 https://registry.npmjs.org/qrcode-terminal
+338 silly registry.get cb [ 304,
+338 silly registry.get   { date: 'Tue, 10 Jun 2014 13:34:52 GMT',
+338 silly registry.get     server: 'Apache',
+338 silly registry.get     via: '1.1 varnish',
+338 silly registry.get     'last-modified': 'Tue, 10 Jun 2014 13:34:52 GMT',
+338 silly registry.get     'cache-control': 'max-age=1',
+338 silly registry.get     etag: '"7XCW95F2XVNI1C4TBKCCVQ6SE"',
+338 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+338 silly registry.get     'x-cache': 'MISS',
+338 silly registry.get     'x-cache-hits': '0',
+338 silly registry.get     'x-timer': 'S1402407292.223803,VS0,VE216',
+338 silly registry.get     vary: 'Accept',
+338 silly registry.get     'content-length': '0',
+338 silly registry.get     'keep-alive': 'timeout=10, max=50',
+338 silly registry.get     connection: 'Keep-Alive' } ]
+339 verbose etag qrcode-terminal from cache
+340 verbose url raw semver
+341 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+342 verbose url resolved https://registry.npmjs.org/semver
+343 info trying registry request attempt 1 at 20:34:50
+344 verbose etag "5T6MUUO9XMCIT4W783K8VECVS"
+345 http GET https://registry.npmjs.org/semver
+346 http 304 https://registry.npmjs.org/connect-phonegap
+347 silly registry.get cb [ 304,
+347 silly registry.get   { date: 'Tue, 10 Jun 2014 13:34:52 GMT',
+347 silly registry.get     server: 'Apache',
+347 silly registry.get     via: '1.1 varnish',
+347 silly registry.get     'last-modified': 'Tue, 10 Jun 2014 13:34:52 GMT',
+347 silly registry.get     'cache-control': 'max-age=1',
+347 silly registry.get     etag: '"92LVSXRXU788NP2UJNGVA2MIH"',
+347 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+347 silly registry.get     'x-cache': 'MISS',
+347 silly registry.get     'x-cache-hits': '0',
+347 silly registry.get     'x-timer': 'S1402407292.233433,VS0,VE283',
+347 silly registry.get     vary: 'Accept',
+347 silly registry.get     'content-length': '0',
+347 silly registry.get     'keep-alive': 'timeout=10, max=50',
+347 silly registry.get     connection: 'Keep-Alive' } ]
+348 verbose etag connect-phonegap from cache
+349 verbose url raw prompt
+350 verbose url resolving [ 'https://registry.npmjs.org/', './prompt' ]
+351 verbose url resolved https://registry.npmjs.org/prompt
+352 info trying registry request attempt 1 at 20:34:50
+353 verbose etag "2RTS2LDE4ABQFSS749LAOC1OF"
+354 http GET https://registry.npmjs.org/prompt
+355 verbose url raw shelljs
+356 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs' ]
+357 verbose url resolved https://registry.npmjs.org/shelljs
+358 info trying registry request attempt 1 at 20:34:50
+359 verbose etag "E914UI7L6ZNMU7UYQCVAMETF7"
+360 http GET https://registry.npmjs.org/shelljs
+361 verbose url raw colors
+362 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+363 verbose url resolved https://registry.npmjs.org/colors
+364 info trying registry request attempt 1 at 20:34:50
+365 verbose etag "ELFISH8MXA1WFKLIIT10ZGCWN"
+366 http GET https://registry.npmjs.org/colors
+367 verbose url raw cordova
+368 verbose url resolving [ 'https://registry.npmjs.org/', './cordova' ]
+369 verbose url resolved https://registry.npmjs.org/cordova
+370 info trying registry request attempt 1 at 20:34:50
+371 verbose etag "6ECM847HJXJV37RHA977I45BZ"
+372 http GET https://registry.npmjs.org/cordova
+373 error not found: git
+374 error Failed using git.
+374 error This is most likely not a problem with npm itself.
+374 error Please check if you have git installed and in your PATH.
+375 error System Windows_NT 6.1.7600
+376 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "phonegap"
+377 error cwd C:\Android apps
+378 error node -v v0.10.28
+379 error npm -v 1.4.9
+380 error code ENOGIT
+381 verbose exit [ 1, true ]
